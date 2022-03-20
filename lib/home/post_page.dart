@@ -1,3 +1,4 @@
+import 'package:desafio_flutter_dreamlabs/core/app_colors.dart';
 import 'package:flutter/material.dart';
 
 class PostPage extends StatelessWidget {
@@ -10,7 +11,9 @@ class PostPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        backgroundColor: AppColors.SteelBlue,
+      ),
       body: Container(
         padding: EdgeInsets.all(30.0),
         child: Wrap(

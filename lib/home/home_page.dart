@@ -1,4 +1,5 @@
 import 'package:desafio_flutter_dreamlabs/api/post_api.dart';
+import 'package:desafio_flutter_dreamlabs/core/app_colors.dart';
 import 'package:desafio_flutter_dreamlabs/home/post_page.dart';
 import 'package:desafio_flutter_dreamlabs/model/post.dart';
 import 'package:flutter/material.dart';
@@ -22,6 +23,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: AppColors.SteelBlue,
         centerTitle: true,
         title: Text("Desafio - Dreamlabs"),
       ),
